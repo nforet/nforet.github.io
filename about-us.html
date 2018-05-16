@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ECU Fitness Connection</title>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Rokkitt" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link rel="stylesheet" href="styles/slicknav.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+  });
+</script>
+<script type="text/javascript">
+  $(function(){
+    $('a').each(function() {
+      if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('active');
+      }
+    });
+  });
+</script>
+</head>
+<body>
+<header>
+  <nav class='main-nav'>
+    <div id="nav_menu">
+      <ul>
+        <li><a href="workouts.html">workouts</a></li>
+        <li><a href="nutrition.html">nutrition</a></li>
+        <li><a href="healthy-living.html">healthy living</a></li>
+        <li><a href="about-us.html">about us</a></li>
+      </ul>
+    </div>
+    <div class='left-nav'>
+      <nav id='mobile_menu'>
+      </nav>
+      <ul id="left_nav" class="nav">
+          <li><a href="workouts.html">workouts</a></li>
+          <li><a href="nutrition.html">nutrition</a></li>
+      </ul>
+    </div>
+    <div class="logo-holder">
+      <a href="index.html">
+        <img src="images/Logo_Desktop.png">
+      </a>
+    </div>
+    <div class='right-nav'>
+      <ul id="right_nav" class="nav">
+          <li><a href="healthy-living.html">healthy living</a></li>
+          <li><a href="about-us.html">about us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="header-image">
+    <img src="images/AboutUs_HeaderImage.png">
+  </div>
+</header>
+
+<main>
+
+  <article class="about-us-article">
+    <img class="circle-left" src="images/AboutUs1.png">
+    <h1 class="about-us-headline">
+      Destiny Welch
+    </h1>
+    <h3 class="about-us-subhead">
+      Director
+    </h3>
+    <p class="about-us-bio">
+      Destiny was born and raised in Martinsville Virgina. Destiny graduated from the University of North Carolina State with a Bachelor's Degree in Health & Fitness in 
+	  2015. Destiny is a second year graduate student here at East Carolina studying Nutrition. Destiny loves to cook and hopes to start her own restaurant.
+    </p>
+  </article>
+  <article class="about-us-article">
+    <img class="circle-left" src="images/AboutUs2.png">
+    <h1 class="about-us-headline">
+      Kayla Holmes
+    </h1>
+    <h3 class="about-us-subhead">
+      Research Associate
+    </h3>
+    <p class="about-us-bio">
+		Kayla grow up in Port St. Lucie, Florida. Kayla received her undergraduate degree here at East Carolina University in 2016 with a Bachelor's Degree in Health & Fitness.
+		Kayla is a second year graduate student here at East Carolina studying Health Education. Kayla loves to work-out and hopes to start her own gym in the future.
+    </p>
+  </article>
+  <article class="about-us-article-last">
+    <img class="circle-left" src="images/AboutUs3.png">
+    <h1 class="about-us-headline">
+      Anthony King
+    </h1>
+    <h3 class="about-us-subhead">
+      Content Editor
+    </h3>
+    <p class="about-us-bio">
+		Anthony was born in New Orleans, Louisiana but grew up in Austin, Texas. Anthony graduated from the University of LSU with a Bachelor's Degree in Sports Medicine in 
+		2017. Anthony is a first year graduate student here at East Carolina studying Physical Therapy. Anthony is a huge New Orleans Saints fan and hopes to become a Sports Doctor in the NFL one day.
+    </p>
+  </article>
+</main>
+
+<footer>
+  &copy; 2018 ECU FITNESS CONNECTION
+</footer>
+</body>
+</html>

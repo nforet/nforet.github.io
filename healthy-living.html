@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ECU Fitness Connection</title>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Rokkitt" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link rel="stylesheet" href="styles/slicknav.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+  });
+</script>
+<script type="text/javascript">
+  $(function(){
+    $('a').each(function() {
+      if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('active');
+      }
+    });
+  });
+</script>
+</head>
+<body>
+<header>
+  <nav class='main-nav'>
+    <div id="nav_menu">
+      <ul>
+        <li><a href="workouts.html">workouts</a></li>
+        <li><a href="nutrition.html">nutrition</a></li>
+        <li><a href="healthy-living.html">healthy living</a></li>
+        <li><a href="about-us.html">about us</a></li>
+      </ul>
+    </div>
+    <div class='left-nav'>
+      <nav id='mobile_menu'>
+      </nav>
+      <ul id="left_nav" class="nav">
+          <li><a href="workouts.html">workouts</a></li>
+          <li><a href="nutrition.html">nutrition</a></li>
+      </ul>
+    </div>
+    <div class="logo-holder">
+      <a href="index.html">
+        <img src="images/Logo_Desktop.png">
+      </a>
+    </div>
+    <div class='right-nav'>
+      <ul id="right_nav" class="nav">
+          <li><a href="healthy-living.html">healthy living</a></li>
+          <li><a href="about-us.html">about us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="header-image">
+    <img src="images/HealthyLiving_HeaderImage.png">
+  </div>
+</header>
+<main>
+  <section class="row_1_workouts">
+    <div class="article-image-left">
+      <img src="images/Spa-treatment-spa-day-banner-box-400x312.jpg">
+    </div>
+    <div class="article-text-right">
+      <h1>
+        HEALTHY MIND
+      </h1>
+      <h2>
+        7 Habits for a Healthy Mind in a Healthy Body
+      </h2>
+      <p>
+        The secrets to well-being can be found in our evolutionary biology. To find clues for healthy living today, we must look to our past. The history of human evolution shows a definitive link between our physical health and psychological well-being.
+      <p class="readmore">
+        <a href="https://www.psychologytoday.com/us/blog/the-athletes-way/201302/7-habits-healthy-mind-in-healthy-body" target="_blank">Read More</a>
+      </p>
+    </div>
+  </section>
+  <section class="row_2_workouts">
+    <div class="article-text-left">
+      <h1>
+        LIVING A BALANCED LIFE
+      </h1>
+      <h2>
+        Manage Life's Balancing Act
+      </h2>
+      <p>
+        Exercise improves balance, and not just your ability to remain upright in less-than-sturdy situations. A workout helps balance those tasks you manage all day long  …
+
+		A new study showed exercise to be effective at empowering people to accomplish tasks and deal with life issues.
+      </p>
+      <p class="readmore">
+        <a href="http://fitnessandwellnessnews.com/manage-lifes-balancing-act/" target="_blank">Read More</a>
+      </p>
+    </div>
+    <div class="article-image-right">
+      <img src="images/Healthy lifestyle-yoga.jpg">
+    </div>
+  </section>
+  <section class="row_3_workouts">
+    <div class="article-image-left">
+      <img src="images/5Min-Workout.jpg">
+    </div>
+    <div class="article-text-right">
+      <h1>
+        HEALTHY BODY
+      </h1>
+      <h2>
+        The Importance of Working Out with Consistency
+      </h2>
+      <p>
+        A well thought out fitness plan will go a long way in helping you to reach your goals. To achieve consistency, you will want to think about the types of exercise that you can do on a regular basis.
+      </p>
+      <p class="readmore">
+        <a href="https://www.fitday.com/fitness-articles/fitness/exercises/the-importance-of-working-out-with-consistency.html" target="_blank">Read More</a>
+      </p>
+    </div>
+  </section>
+</main>
+<footer>
+  &copy; 2018 ECU FITNESS CONNECTION
+</footer>
+</body>
+</html>

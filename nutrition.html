@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ECU Fitness Connection</title>
+<link rel="stylesheet" type="text/css" href="styles/nutrition.css">
+<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Rokkitt" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link rel="stylesheet" href="styles/slicknav.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+  });
+</script>
+<script type="text/javascript">
+  $(function(){
+    $('a').each(function() {
+      if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('active');
+      }
+    });
+  });
+</script>
+</head>
+<body>
+<header>
+  <nav class='main-nav'>
+    <div id="nav_menu">
+      <ul>
+        <li><a href="workouts.html">workouts</a></li>
+        <li><a href="nutrition.html">nutrition</a></li>
+        <li><a href="healthy-living.html">healthy living</a></li>
+        <li><a href="about-us.html">about us</a></li>
+      </ul>
+    </div>
+    <div class='left-nav'>
+      <nav id='mobile_menu'>
+      </nav>
+      <ul id="left_nav" class="nav">
+          <li><a href="workouts.html">workouts</a></li>
+          <li><a href="nutrition.html">nutrition</a></li>
+      </ul>
+    </div>
+    <div class="logo-holder">
+      <a href="index.html">
+        <img src="images/Logo_Desktop.png">
+      </a>
+    </div>
+    <div class='right-nav'>
+      <ul id="right_nav" class="nav">
+          <li><a href="healthy-living.html">healthy living</a></li>
+          <li><a href="about-us.html">about us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="header-image">
+    <img src="images/Nutrition_HeaderImage.png">
+  </div>
+</header>
+<main>
+  <h3 class="nutrition_description"> 
+      Nutrition is one of the most important parts of overall fitness.  Your nutrition should focus on a good balance of three macro nutrients: Carbohydrates, Proteins and Fats. Fad diets seldom work and are normally not a good plan for fitness and wellbeing. These often have nasty rebound effects. Stick to the basics of calories in verse calories out.</p>
+    </h3>
+
+
+
+    <section class="row_1_nutrition">
+    <div class="article-image-left">
+      <img src="images/logo.svg">
+    </div>
+    <div class="article-text-right">
+      <h1>
+        Nutrition Tracking
+      </h1>
+      <h2>
+        Nutrition Tracking For Beginners
+      </h2>
+      <p>
+        Time to get serious about nutrition.  Myfitnesspal ofers users an awesome app based tool to help track caloric intake, macro nutrients, weight and more. Click on the link below to get started.
+      </p>
+      <p class="readmore">
+        <a href="https://www.myfitnesspal.com" target="_blank">Read More</a>
+      </p>
+    </div>
+  </section>
+  <section class="row_2_nutrition">
+    <div class="article-text-left">
+      <h1>
+        Carbohydrates
+      </h1>
+      <h2>
+        Carbohydrates = Fuel for the Body
+      </h2>
+      <p>
+        Carbohydrates are one of the main types of nutrients and the one needed in the largest amounts by the body. Between 45 and 65 percent of calories should come from carbs, according to the Dietary Reference Intakes set by the Institute of Medicine. Carbohydrates are often maligned for contributing to weight gain, but they are needed for your body to function well and should be part of every person’s diet.  Too much of any Macro nutrient can be bad for the body and lead to weight gain.
+      <p class="readmore">
+        <a href="https://www.garrisonbodyhealthnutrition.com/health/news/carbohydrate-is-essential" target="_blank">Read More</a>
+      </p>
+    </div>
+    <div class="article-image-right">
+      <img src="images/carbs.jpg">
+    </div>
+  </section>
+  <section class="row_3_nutrition">
+    <div class="article-image-left">
+      <img src="images/Protein.jpg">
+    </div>
+    <div class="article-text-right">
+      <h1>
+        Protein
+      </h1>
+      <h2>
+       Protein = Muscle Builders
+      </h2>
+      <p>
+       Proteins are large, complex molecules that play many critical roles in the body. They do most of the work in cells and are required for the structure, function, and regulation of the body’s tissues and organs. Your body uses protein to build and repair tissues. You also use protein to make enzymes, hormones, and other body chemicals. Protein is an important building block of bones, muscles, cartilage, skin, and blood.  Protein should constitute about 20 percent of your diet.
+      </p>
+      <p class="readmore">
+        <a href="https://www.choosemyplate.gov/protein-foods" target="_blank">Read More</a>
+      </p>
+    </div>
+  </section>
+    <section class="row_4_nutrition">
+    <div class="article-text-left">
+      <h1>
+        Fats
+      </h1>
+      <h2>
+        Fats = Storage and Protection
+      </h2>
+      <p>
+        Triglycerides, cholesterol and other essential fatty acids—the scientific term for fats the body can’t make on its own—store energy, insulate us and protect our vital organs. They act as messengers, helping proteins do their jobs. They also start chemical reactions that help control growth, immune function, reproduction and other aspects of basic metabolism.  Fat should make up approximately 30% of your daily diet.
+      <p class="readmore">
+        <a href="https://www.eatright.org/food/nutrition/dietary-guidelines-and-myplate/choose-healthy-fats" target="_blank">Read More</a>
+      </p>
+    </div>
+    <div class="article-image-right">
+      <img src="images/fats.jpg">
+    </div>
+  </section>
+
+</main>
+<footer>
+  &copy; 2018 ECU FITNESS CONNECTION
+</footer>
+</body>
+</html>
