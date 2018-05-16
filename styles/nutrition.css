@@ -78,6 +78,11 @@ div.logo-holder {
   overflow: hidden;
   display: block;
 }
+main h3 {
+    padding: 0 2em 0 2em;
+
+}
+
 
 section {
   width: 100%;
@@ -97,7 +102,7 @@ section {
   height: auto;
 }
 
-.row_1_workouts {
+.row_1_nutrition {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -107,7 +112,7 @@ section {
   border-bottom: .075em solid #572a89;
 }
 
-.row_2_workouts {
+.row_2_nutrition {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -117,7 +122,17 @@ section {
   border-bottom: .075em solid #572a89;
 }
 
-.row_3_workouts {
+.row_3_nutrition {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 5% 0 5% 0;
+  border-bottom: .075em solid #572a89;
+}
+
+.row_4_nutrition {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -156,7 +171,7 @@ section {
 }
 
 #workouts {
-  padding: 3vw 0 1vw 0;
+  padding: 3% 0 1% 0;
   width: 50%;
   border-right:.5em solid #f1f1f1;
   display: flex;
@@ -164,7 +179,7 @@ section {
 }
 
 #nutrition {
-  padding: 3vw 0 1vw 0;
+  padding: 3% 0 1% 0;
   width: 50%;
   border-left:.5em solid #f1f1f1;
   display: flex;
@@ -172,7 +187,7 @@ section {
 }
 
 #healthy_living {
-  padding: 1vw 0 5vw 0;
+  padding: 1% 0 5% 0;
   width: 50%;
   border-right:.5em solid #f1f1f1;
   display: flex;
@@ -180,7 +195,7 @@ section {
 }
 
 #about_us {
-  padding: 1vw 0 5vw 0;
+  padding: 1% 0 5% 0;
   width: 50%;
   border-left:.5em solid #f1f1f1;
   display: flex;
@@ -376,20 +391,18 @@ footer {
     flex-direction:column;
     width: 100%;
     border: none;
-    margin: 2vw 0 2vw 0;
+    margin: 2% 0 2% 0;
     padding: 0px;
   }
 
-  .row_1_workouts, .row_2_workouts,
-  .row_3_workouts, .article-text-left, .article-image-left, .article-text-right, .article-image-right {
+  .row_1_workouts, .row_2_workouts, .row_3_workouts, .article-text-left, .article-image-left, .article-text-right, .article-image-right, .row_1_nutrition, .row_2_nutrition, .row_3_nutrition, .row_4_nutrition {
     margin:0;
     padding: 0;
     flex-direction:column;
     justify-content: center;
   }
 
-  .row_1_workouts, .row_2_workouts,
-  .row_3_workouts {
+  .row_1_workouts, .row_2_workouts, .row_3_workouts, .row_1_nutrition, .row_2_nutrition, .row_3_nutrition, .row_4_nutrition {
     padding: 5% 2% 5% 2%;
     width: 100%;
   }
@@ -418,6 +431,22 @@ footer {
     order: 1;
   }
 
+  .row_2_nutrition .article-text-left {
+    order: 2;
+  }
+
+  .row_2_nutrition .article-image-right {
+    order: 1;
+  }
+
+  .row_4_nutrition .article-text-left {
+    order: 2;
+  }
+
+  .row_4_nutrition .article-image-right {
+    order: 1;
+  }
+
   .article-text-left h2, .article-text-right h2 {
     font-size: 1.5em;
     margin: 0;
@@ -430,6 +459,12 @@ footer {
   }
 
   h3.about-us-subhead {
+    font-size: 1.25em;
+    margin: 0;
+    padding: 1% 0 0 0;
+  }
+
+  h3.nutrition_description {
     font-size: 1.25em;
     margin: 0;
     padding: 1% 0 0 0;

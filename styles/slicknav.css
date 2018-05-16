@@ -152,4 +152,14 @@
   	font-size: .8em;
   }
 
+	.slicknav_menu {
+		position:relative;
+		box-sizing: border-box;
+	}
+
+	.slicknav_nav, .slicknav_nav ul {
+    list-style: none;
+    overflow: visible;
+}
+
 }
